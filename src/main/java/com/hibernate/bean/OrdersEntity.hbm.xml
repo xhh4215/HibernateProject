@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.hibernate.bean.OrdersEntity" table="orders" schema="springtest">
+        <id name="idO" column="Id_O"/>
+        <property name="orderNo" column="OrderNo"/>
+        <property name="idP" column="Id_P"/>
+    </class>
+</hibernate-mapping>
